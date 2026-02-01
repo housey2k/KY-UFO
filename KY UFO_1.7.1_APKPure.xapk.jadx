@@ -1,0 +1,79 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "KY UFO_1.7.1_APKPure.xapk"
+  ],
+  "treeExpansionsV2": [],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.cooingdv.kyufo.socket.Config",
+      "subPath": "java",
+      "caret": 2140,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.cooingdv.kyufo.socket.SocketClient",
+      "subPath": "java",
+      "caret": 17220,
+      "view": {
+        "x": 0,
+        "y": 5405
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.cooingdv.kyufo.socket.UdpClient",
+      "subPath": "java",
+      "caret": 6835,
+      "view": {
+        "x": 0,
+        "y": 2077
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.cooingdv.kyufo.socket.UdpComm",
+      "subPath": "java",
+      "caret": 6985,
+      "view": {
+        "x": 0,
+        "y": 3203
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    }
+  ],
+  "cacheDir": "C:\\Users\\Brenno\\AppData\\Local\\skylot\\jadx\\cache\\projects\\KY UFO_1.7.1_APKPure-6efb4d75d828dff430972fe336331992",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "searchResourcesFilter": "$TEXT",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}
