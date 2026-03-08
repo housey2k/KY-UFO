@@ -19,3 +19,11 @@ while True:
 
 all these shit just to show sum stuff on the app
 the RC uses some weird protocol i`m still reversing, apparently its all UDP, it uses port 50050, sending the same data the app expects or even a empty response will get the screen all glitched followed by a reboot
+
+got a packet capture with these commands:
+
+sudo airmon-ng start wlp2s0
+
+sudo airodump-ng wlp2s0mon --essid FLOW-UFO-542e73
+
+sudo airodump-ng wlp2s0mon --essid FLOW-UFO-542e73 -c 1 -w drone_capture
