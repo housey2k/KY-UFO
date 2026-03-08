@@ -1,0 +1,10 @@
+rtsp: true
+rtspAddress: 0.0.0.0:7070
+rtmp: false
+hls: false
+webrtc: false
+srt: false
+logLevel: info
+paths:
+  webcam:
+    source: publisher

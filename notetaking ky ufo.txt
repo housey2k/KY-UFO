@@ -1,0 +1,21 @@
+app android:
+gst-launch-1.0 videotestsrc !     video/x-raw,width=640,height=352,framerate=20/1,format=I420 !     jpegenc quality=85 !     rtspclientsink location=rtsp://127.0.0.1:7070/webcam
+
+./mediamtx mediamtx.yml
+
+ python3 -c "                              
+import socket, time
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.bind(('0.0.0.0', 7099))
+print('UDP 7099 ready...')
+while True:
+    data, addr = s.recvfrom(1024)
+    print(f'Got {data.hex()} from {addr}')
+    payload = bytes([0x65, 0x02, 0x31, 0x46, 0x31, 0x46, 0x00, 0x00, 0x00, 0x00, 0x00])
+    s.sendto(payload, addr)
+"
+
+
+
+all these shit just to show sum stuff on the app
+the RC uses some weird protocol i`m still reversing, apparently its all UDP, it uses port 50050, sending the same data the app expects or even a empty response will get the screen all glitched followed by a reboot
